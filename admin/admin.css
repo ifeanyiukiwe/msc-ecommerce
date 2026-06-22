@@ -1,0 +1,199 @@
+/*GLOBAL STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+}
+.admin-main {
+  background: url(../images/2306.w026.n002.3414B.p1.3414.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+h1,
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* LOGIN PAGE */
+
+.login-container {
+  width: 400px;
+  margin: 120px auto;
+  padding: 40px;
+  background: #f4f6f9;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.login-container h2 {
+  margin-bottom: 25px;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  background: inherit;
+  border: 2px solid darkorchid;
+  color: darkorchid;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.login-container button:hover {
+  background: darkorchid;
+  color: white;
+}
+
+/* DASHBOARD LAYOUT*/
+
+.dashboard-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.dashboard-header h1 {
+  color: white;
+  /* font-size: 20px; */
+}
+.dashboard-actions {
+  display: flex;
+  gap: 15px;
+}
+
+.dashboard-actions a {
+  text-decoration: none;
+  color: white;
+  background: darkorchid;
+  padding: 8px 15px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.dashboard-actions a:hover {
+  background: inherit;
+  border: 2px solid white;
+  color: darkorchid;
+}
+@media (max-width: 768px) {
+  .dashboard-header {
+    flex-direction: column;
+  }
+}
+/* TABLE STYLING */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+table th {
+  background: darkorchid;
+  color: white;
+  padding: 14px;
+  text-align: left;
+  font-weight: 500;
+}
+
+table td {
+  padding: 14px;
+  border-bottom: 1px solid #eee;
+}
+
+table tr:hover {
+  background: #f9f9f9;
+}
+
+/*   STATUS BADGES*/
+
+.status {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.status-pending {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.status-completed {
+  background: #d4edda;
+  color: #155724;
+}
+
+.status-cancelled {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+/* =========================
+   ACTION BUTTONS
+========================= */
+
+.btn {
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-size: 13px;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.btn-view {
+  background: #17a2b8;
+  color: white;
+}
+
+.btn-complete {
+  background: #28a745;
+  color: white;
+}
+
+.btn-cancel {
+  background: #dc3545;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+/* =========================
+   BACK BUTTON
+========================= */
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: #ff6f3c;
+}
