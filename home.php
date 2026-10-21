@@ -69,7 +69,7 @@ session_start();
     <h1>About Padfect</h1>
     <p>
         Padfect Store is an academic e-commerce platform developed as part of an MSc Computing Project. 
-        The system provides an online environment where pet owners can browse and purchase essential pet products conveniently.
+        The system provides an online environment where gamers can browse and purchase essential gaming products conveniently.
     </p>
 
     <div class="about-container">
